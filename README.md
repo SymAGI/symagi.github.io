@@ -8,7 +8,7 @@ a platform uniting human intuition with adaptive artificial intelligence.
 This repository contains the static source files for the official SymAGI website.  
 It is a minimal, responsive HTML/CSS design — no frameworks or build tools required.
 
-The site is currently **self-hosted**, but may later be served via **GitHub Pages**.
+The site is currently served via **GitHub Pages**.
 
 ## 🧱 Structure
 ```/
