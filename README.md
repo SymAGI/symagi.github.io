@@ -1,7 +1,6 @@
 # SymAGI Site
 
-Public website for [SymAGI.com](https://symagi.com) —  
-a platform uniting human intuition with adaptive artificial intelligence.
+Public website for [SymAGI.com](https://symagi.com) — a platform uniting human intuition with adaptive artificial intelligence.
 
 ## 📄 Overview
 
