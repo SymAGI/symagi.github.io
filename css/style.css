@@ -25,17 +25,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
+  justify-content: center;
+  height: 100vh;
   text-align: center;
-  overflow-x: hidden; /* laat scrollen toe, maar geen horizontale scroll */
-  padding: 2rem 0 4rem;
+  overflow: hidden;
 }
 
 header img {
-  width: 150px;
+  width: 180px;
   height: auto;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   transition: transform 0.8s ease;
 }
 
@@ -53,7 +52,7 @@ h1 {
 p.slogan {
   font-size: 1.1rem;
   color: var(--accent);
-  margin-bottom: 1.5rem; /* minder ruimte onder slogan */
+  margin-bottom: 3rem;
 }
 
 section {
@@ -62,15 +61,13 @@ section {
   line-height: 1.6;
   opacity: 0.9;
   white-space: pre-line;
-  margin-bottom: 3rem; /* ruimte boven footer */
 }
 
 footer {
-  position: relative; /* niet absoluut vastzetten */
+  position: absolute;
+  bottom: 20px;
   font-size: 0.8rem;
   opacity: 0.6;
-  margin-top: auto;
-  padding-bottom: 1rem;
 }
 
 footer a {
@@ -91,17 +88,9 @@ footer a:hover {
   background: radial-gradient(circle, rgba(0,170,255,0.15) 0%, transparent 70%);
   animation: float 12s ease-in-out infinite alternate;
   pointer-events: none;
-  z-index: -1;
 }
 
 @keyframes float {
   from { transform: translate(0, 0); }
   to { transform: translate(60px, 40px); }
-}
-
-/* Optioneel: centreren op desktop, maar niet op mobiel */
-@media (min-width: 768px) {
-  body {
-    justify-content: center;
-  }
 }
